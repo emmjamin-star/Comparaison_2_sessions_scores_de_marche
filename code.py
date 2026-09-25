@@ -607,7 +607,7 @@ if st.button("Lancer la comparaison des deux sessions", type="primary", use_cont
             ax_g.bar(x + width/2, vals_s2, width, label='🟠 Session 2', color='#ff7f0e')
             ax_g.set_xticks(x)
             ax_g.set_xticklabels(labels, fontweight='bold')
-            ax_g.set_title("Scores Globaux (Plus haut = meilleur, ~100 = sain)", fontweight='bold')
+            ax_g.set_title("Scores Globaux (~100 = sain)", fontweight='bold')
             ax_g.legend()
             st.pyplot(fig_global)
 
