@@ -1,1 +1,8 @@
-
+streamlit
+ezc3d
+numpy
+pandas
+matplotlib
+scipy
+scikit-learn
+seaborn
